@@ -1,0 +1,187 @@
+html,
+body {
+	height: 100%;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-image: linear-gradient(to right top, red, red, orange, orange, yellow);
+	text-align: center;
+}
+
+.header {
+	color: red;
+	font-family: 'Yeon Sung';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+
+.header img {
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div {
+	background: rgba(255, 255, 255, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button {
+	width: 80%;
+	border-radius: 15px;
+}
+
+.room_name {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#output {
+	padding: 10px;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+.input_div_room_page {
+	width: 80%;
+}
+
+.input_div label {
+	color: blue;
+	font-size: 20px;
+}
+
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.input_div_message_page label {
+	color: blue;
+}
+
+.input_div_message_page #msg {
+	width: 80%;
+}
+
+.input_div_message_page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.white {
+	color: white;
+	font-size: 30px;
+	cursor: text;
+}
+
+.user_tick {
+	width: 20px;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: grey;
+}
+
+.logout {
+	float: right;
+	margin: 5px;
+	font-size: 20px;
+}
+
+#user_name,
+#user_name:hover {
+	text-align: center;
+	margin: 1px;
+	border-radius: 15px;
+	margin-top: -25px;
+}
+
+.logout_icon {
+	margin-left: 10px;
+}
+
+.room_name_input {
+	width: 80%;
+	margin: 50px;
+}
+
+.addroom {
+	margin: 10px;
+	width: 50%;
+	border-radius: 1pc;
+	transition: all 0.4s;
+}
+
+.addroom:hover {
+	transform: scale(1.06);
+	background-color: green;
+	color: white;
+}
+
+.welcome-txt {
+	margin-right: -45px;
+}
+
+.username {
+	transition: all 0.4s;
+}
+
+.username:focus {
+	transform: scale(1.04);
+}
+
+.loginbtn {
+	transition: all 0.4s;
+	border: none;
+}
+
+.loginbtn:hover {
+	background-color: lime;
+	transform: scale(1.05);
+}
+
+.addroomtxt {
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	transition: all 0.4s;
+	text-align: center;
+	box-shadow: 0px 0px 5px white;
+}
+
+.addroomtxt:focus {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px white;
+}
+
+.dark-mode {
+	background: rgb(55, 65, 81);
+	color: black;
+}
+
+#btnmode {
+	border: none;
+	margin-left: -500px;
+	transition: all 0.4s;
+	margin-top: 5px;
+	margin-left: -1000px;
+}
+
+#btnmode:hover {
+	transform: scale(1.05);
+}

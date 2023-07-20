@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to right top, red, red, orange, orange, yellow);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout {
+    font-size: 20px;
+    float: right;
+    margin: 5px;
+}
+
+.logout_icon {
+    margin-left: 10px;
+}
+
+.send {
+    color: lime;
+    font-size: 30px;
+    cursor: text;
+}
+
+.sendbtn {
+    width: 40%;
+    border-radius: 10px;
+    transition: all 0.4s;
+    border: none;
+}
+
+.sendbtn:hover {
+    transform: scale(1.08);
+    background-color: green;
+    color: white;
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 5px white;
+}
+
+#msg:focus {
+    box-shadow: 2px 2px 10px white;
+    transform: scale(1.05);
+}
+
+#output {
+    padding: 10px;
+    width: 70%;
+    background: midnightblue;
+    border-radius: 15px;
+    margin-top: -30px;
+}
+
+hr {
+    background-color: lightgrey;
+    height: 0.7px;
+    border: none;
+}
+
+.dark-mode {
+	background: rgb(55, 65, 81);;
+	color: black;
+
+}
+
+#btnmode {
+	border: none;
+	margin-left: -500px;
+	transition: all 0.4s;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#btnmode:hover {
+	transform: scale(1.05);
+}
+
+#leave {
+    width: 200px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+#leave:hover {
+    transform: scale(1.08);
+    background-color: rgb(255, 100, 0);
+}
